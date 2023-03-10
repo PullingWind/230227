@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>登录</title>
+	<link rel="stylesheet" href="css/layui.css" />
+	<link rel="stylesheet" href="css/login.css" />
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/vue.js"></script>
+</head>
+
+<body>
+
+
+	<div id="app">
+
+		<div class="login0">
+
+			<div class="login1">
+				账号：<input class="layui-input" type="text" placeholder="请输入账号" v-model="tempPhone"><br>
+				密码：<input class="layui-input" type="text" placeholder="请输入密码" v-model="tempPwd">
+			</div>
+
+			<div class="login2">
+				<!-- 判断是否勾选单选框以影响登录按钮状态 -->
+				<input type="checkbox" class="login-checkbox" @click="toLogin=!toLogin">我已阅读并同意
+				<!-- 打开服务条款 -->
+				<a @click='isShow=!isShow'>服务条款</a>
+			</div>
+
+			<!-- 须判断数据库内是否存在匹配账号 -->
+			<button class="layui-btn" v-bind:disabled='toLogin==false'>登录</button>
+			<!-- 跳转注册页面 -->
+			<button class="layui-btn" onclick='location.href=("logon.html")'>注册</button>
+		</div>
+
+		<!-- 服务条款... -->
+		<div class="login3" v-show="isShow">
+
+			<div class="login3-1" @click='isShow=!isShow'>返回</div>
+			<div class="login3-2">
+				<p>不会真的有人来看这个吧？</p>
+			</div>
+
+		</div>
+
+	</div>
+
+	<script src="js/layui/layui.js"></script>
+	<script src="js/layui/app.js"></script>
+
+
+</body>
+
+</html>
