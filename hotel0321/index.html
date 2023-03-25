@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>酒店管理系统</title>
+	<link rel="stylesheet" href="css/unit.css" />
+	<link rel="stylesheet" href="css/index.css" />
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/vue.js"></script>
+</head>
+
+<body>
+
+	<div id="app">
+
+
+		<div class="part1">
+			<div class="part1-1">
+				酒店管理系统
+			</div>
+			<div class="part1-2">
+				<a>
+					{{loginUserName}}
+				</a>
+			</div>
+		</div>
+
+
+		<div class="part2">
+
+			<ul>
+				<li class="part2-1">
+					<div class="part2-1-1">用户管理</div>
+					<dl class="part2-1-2">
+						<!-- 于layui/layui.js设置页面内容切换 -->
+						<dd class="userList" @click="changeIframe('userList.html')">
+							<a href="#">用户列表</a>
+						</dd>
+						<dd class="addUser" @click="changeIframe('addUser.html')">
+							<a href="#">用户添加</a>
+						</dd>
+					</dl>
+				</li>
+
+				<li class="part2-1">
+					<div class="part2-1-1">会员管理</div>
+					<dl class="part2-1-2">
+						<dd class="memberList" @click="changeIframe('memberList.html')">
+							<a href="#">会员列表</a>
+						</dd>
+						<dd class="addMember" @click="changeIframe('addMember.html')">
+							<a href="#">会员添加</a>
+						</dd>
+					</dl>
+				</li>
+
+				<li class="part2-1">
+					<div class="part2-1-1">客房管理</div>
+					<dl class="part2-1-2">
+						<dd class="roomList" @click="changeIframe('roomList.html')">
+							<a href="#">客房列表</a>
+						</dd>
+					</dl>
+				</li>
+
+				<li class="part2-1">
+					<div class="part2-1-1">消息管理</div>
+					<dl class="part2-1-2">
+						<dd class="messageList" @click="changeIframe('messageList.html')">
+							<a href="#">消息列表</a>
+						</dd>
+					</dl>
+				</li>
+
+				<li class="part2-1">
+					<div class="part2-1-1">系统管理</div>
+					<dl class="part2-1-2">
+						<dd class="login" @click="changeIframe('login.html')">
+							<a href="#">退出登录</a>
+						</dd>
+					</dl>
+				</li>
+			</ul>
+			<!-- <button type="button" class="btn1">单击</button> -->
+			<!-- <button type="button" class="btn2" @click="">单击</button> -->
+			<!-- {{winWidth}},{{winHeight}} -->
+		</div>
+
+
+		<div class="part3">
+			<iframe class="part3-1" src=""></iframe>
+		</div>
+
+
+	</div>
+
+	<script src="js/index/index.js"></script>
+	<script src="js/index/app.js"></script>
+
+</body>
+
+</html>

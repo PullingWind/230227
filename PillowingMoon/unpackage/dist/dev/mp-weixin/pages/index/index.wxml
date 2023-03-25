@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><navigator url="/pages/intro/intro" open-type="reLaunch">{{a}}</navigator></view></view>

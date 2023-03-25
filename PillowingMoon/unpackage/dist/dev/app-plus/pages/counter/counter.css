@@ -1,0 +1,54 @@
+
+.container-counter {
+		background-color: white;
+		padding-top: 1.125rem;
+}
+.counter-box {
+		height: 2.5rem;
+		border: 0.125rem solid #777;
+		border-radius: 0.5rem;
+		padding: 0.4375rem 0 0.4375rem 0;
+		margin: 0.875rem 0.4375rem 0.875rem 0.4375rem;
+		position: relative;
+}
+.counter-box-1 {
+		height: 1.25rem;
+		border: 0.125rem solid #777;
+		border-radius: 0.5rem;
+		padding: 0.4375rem 0 0.4375rem 0;
+		margin: 0.875rem 0.4375rem 0.875rem 0.4375rem;
+		position: relative;
+}
+.counter-box-3 {
+		box-sizing: border-box;
+		/* border: 1rpx solid black; */
+		width: 50%;
+		float: left;
+}
+.counter-box-3 uni-input {
+		width: 40%;
+		float: right;
+		color: rgb(90, 90, 90);
+}
+.counter-box-3 uni-text {
+		width: 60%;
+		/* background-color: aquamarine; */
+		color: black;
+		float: left;
+		text-align: right;
+}
+.counter-lable {
+		background-color: white;
+		min-width: 5rem;
+		color: red;
+		clear: both;
+		padding: 0 0.25rem 0 0.25rem;
+		position: absolute;
+		top: -0.5625rem;
+		left: 1.125rem;
+		font-size: 0.6875rem;
+}
+.counter-btn {
+		width: 7.5rem;
+		background-color: #f1f3f4;
+}

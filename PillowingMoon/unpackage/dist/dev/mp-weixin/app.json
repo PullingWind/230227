@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/intro/intro",
+    "pages/counter/counter"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "PillowindMoon",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#777",
+    "selectedColor": "#1cb9ce",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/intro/intro",
+        "iconPath": "static/tabs/intro01.png",
+        "selectedIconPath": "static/tabs/intro02.png",
+        "text": "介绍"
+      },
+      {
+        "pagePath": "pages/counter/counter",
+        "iconPath": "static/tabs/counter01.png",
+        "selectedIconPath": "static/tabs/counter02.png",
+        "text": "计算"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

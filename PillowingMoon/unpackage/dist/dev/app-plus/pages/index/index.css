@@ -1,0 +1,27 @@
+
+.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+}
+.logo {
+		height: 6.25rem;
+		width: 6.25rem;
+		margin-top: 9.375rem;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1.5625rem;
+}
+.text-area {
+		display: flex;
+		justify-content: center;
+}
+.title {
+		font-size: 1.125rem;
+		color: #8f8f94;
+}
+.index-btn {
+		margin-top: 3.125rem;
+		background-color: #f1f3f4;
+}

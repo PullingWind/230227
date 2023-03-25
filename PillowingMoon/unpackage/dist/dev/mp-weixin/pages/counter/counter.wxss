@@ -1,0 +1,53 @@
+
+.container-counter {
+		background-color: white;
+		padding-top: 36rpx;
+}
+.counter-box {
+		height: 80rpx;
+		border: 4rpx solid #777;
+		border-radius: 16rpx;
+		padding: 14rpx 0 14rpx 0;
+		margin: 28rpx 14rpx 28rpx 14rpx;
+		position: relative;
+}
+.counter-box-1 {
+		height: 40rpx;
+		border: 4rpx solid #777;
+		border-radius: 16rpx;
+		padding: 14rpx 0 14rpx 0;
+		margin: 28rpx 14rpx 28rpx 14rpx;
+		position: relative;
+}
+.counter-box-3 {
+		box-sizing: border-box;
+		/* border: 1rpx solid black; */
+		width: 50%;
+		float: left;
+}
+.counter-box-3 input {
+		width: 40%;
+		float: right;
+		color: rgb(90, 90, 90);
+}
+.counter-box-3 text {
+		width: 60%;
+		/* background-color: aquamarine; */
+		color: black;
+		float: left;
+		text-align: right;
+}
+.counter-lable {
+		background-color: white;
+		min-width: 160rpx;
+		color: red;
+		clear: both;
+		padding: 0 8rpx 0 8rpx;
+		position: absolute;
+		top: -18rpx;
+		left: 36rpx;
+		font-size: 22rpx;
+}
+.counter-btn {
+		background-color: aqua;
+}

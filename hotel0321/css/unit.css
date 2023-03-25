@@ -1,0 +1,58 @@
+*{
+	margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0)
+}
+iframe{
+	border: 0;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	cursor: pointer;
+}
+
+/*隐藏滚动条但可以使用*/
+body::-webkit-scrollbar {	
+	display: none;
+}
+
+iframe{
+	width: 100%;
+	min-width: 240px;
+	height: 100%;
+}
+
+.unit-table{
+	width: 100%;
+	min-width: 460px;
+}
+
+.unit-input{
+	height: 20px;
+}
+
+.unit-btn{
+	width: 40px;
+	font-size: 15px;
+}
+
+.unit-btn-danger{
+	background-color:#ff5722
+}
+
+table th,table td{
+	width: 20%;
+	height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
